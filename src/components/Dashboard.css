@@ -1,0 +1,88 @@
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #07192f;
+  }
+  
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 150px;
+    column-gap: 200px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .box {
+    width: 250px; /* Set the same width and height for a circle */
+    height: 250px;
+    background-color: white;
+    color: #07192f;
+    font-size: 18px;  
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    border-radius: 50%; /* Make the box circular */
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden; /* Hide any part of the image that extends beyond the circle */
+  }
+  
+  .box:hover {
+    transform: scale(1.15);
+    background-color: #000000;
+  }
+  
+  .box:nth-child(6) {
+    background-image: url('https://i.ibb.co/0Vf0X4Lc/Number-Game-1.png');
+    background-size: cover; /* Cover the entire box */
+    background-position: center; /* Center the image */
+    color: transparent; /* Hide the text initially */
+  }
+  
+  .box:nth-child(2) {
+    background-image: url('https://i.ibb.co/gMHMnj7x/Number-Game-3.png');
+    background-size: cover; /* Cover the entire box */
+    background-position: center; /* Center the image */
+    color: transparent; /* Hide the text initially */
+  }
+  
+  .box:nth-child(3) {
+    background-image: url('https://i.ibb.co/6JX8PsWX/Number-Game-2.png');
+    background-size: cover; /* Cover the entire box */
+    background-position:center; /* Center the image */
+    color: transparent; /* Hide the text initially */
+  }
+  
+  .box:nth-child(4) {
+    background-image: url('https://i.ibb.co/bMjNp2LG/Number-Game-6.png');
+    background-size: cover; /* Cover the entire box */
+    background-position: center; /* Center the image */
+    color: transparent; /* Hide the text initially */
+  }
+  
+  .box:nth-child(5) {
+    background-image: url('https://i.ibb.co/RpkctBb8/Number-Game-5.png');
+    background-size: cover; /* Cover the entire box */
+    background-position: center; /* Center the image */
+    color: transparent; /* Hide the text initially */
+  }
+  
+  .box:nth-child(1) {
+    background-image: url('https://i.ibb.co/wNSr3mjR/Number-Game-4.png');
+    background-size: cover; /* Cover the entire box */
+    background-position: center; /* Center the image */
+    color: transparent; /* Hide the text initially */
+  }
+  
+  .box:hover {
+    color: white; /* Show text on hover */
+  }
+  
